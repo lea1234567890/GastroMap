@@ -25,6 +25,12 @@ GastroMap est une application iOS de recherche et consultation de restaurants. L
 
 Swift, UIKit, Storyboards, CoreData, MapKit, CoreLocation, Xcode.
 
+## Modèle de données
+
+L'application utilise CoreData avec quatre entités principales : `Restaurants`, `Menus`, `Horaire` et `Commentaires`.
+
+La structure est détaillée dans [`docs/database-structure.md`](docs/database-structure.md). Ce dossier contient aussi un schéma SQL simplifié issu d'un projet académique de base de données restaurant réalisé en Licence, uniquement comme référence de modélisation.
+
 ## Lancement
 
 Ouvrir `GastroMap.xcodeproj` avec Xcode, puis lancer l'application sur simulateur iOS.
