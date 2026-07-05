@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="23507" systemVersion="24B91" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Commentaires" representedClassName=".CommentairesMO" syncable="YES">
+        <attribute name="contenu" optional="YES" attributeType="String"/>
+        <attribute name="note" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <relationship name="leRestaurant" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Restaurants" inverseName="sesCommentaires" inverseEntity="Restaurants"/>
+    </entity>
+    <entity name="Horaire" representedClassName=".HoraireMo" syncable="YES">
+        <attribute name="jour" optional="YES" attributeType="String"/>
+        <attribute name="ouverture" optional="YES" attributeType="String"/>
+        <relationship name="sonResto" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Restaurants" inverseName="sesHoraires" inverseEntity="Restaurants"/>
+    </entity>
+    <entity name="Menus" representedClassName=".MenusMO" syncable="YES">
+        <attribute name="descriptionMenu" optional="YES" attributeType="String"/>
+        <attribute name="type_menu" optional="YES" attributeType="String"/>
+        <relationship name="sonRestaurant" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Restaurants" inverseName="sesMenus" inverseEntity="Restaurants"/>
+    </entity>
+    <entity name="Restaurants" representedClassName=".RestaurantsMO" syncable="YES">
+        <attribute name="adresse" optional="YES" attributeType="String"/>
+        <attribute name="image" optional="YES" attributeType="String"/>
+        <attribute name="latitude" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="longitude" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="nom" optional="YES" attributeType="String"/>
+        <relationship name="sesCommentaires" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Commentaires" inverseName="leRestaurant" inverseEntity="Commentaires"/>
+        <relationship name="sesHoraires" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Horaire" inverseName="sonResto" inverseEntity="Horaire"/>
+        <relationship name="sesMenus" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Menus" inverseName="sonRestaurant" inverseEntity="Menus"/>
+    </entity>
+</model>

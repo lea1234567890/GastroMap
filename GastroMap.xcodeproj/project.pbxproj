@@ -1,0 +1,403 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4E04861C2D1DAFAD00A863A4 /* MenusMO+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0486182D1DAFAD00A863A4 /* MenusMO+CoreDataClass.swift */; };
+		4E04861D2D1DAFAD00A863A4 /* HoraireMo+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0486162D1DAFAD00A863A4 /* HoraireMo+CoreDataClass.swift */; };
+		4E04861E2D1DAFAD00A863A4 /* RestaurantsMO+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E04861B2D1DAFAD00A863A4 /* RestaurantsMO+CoreDataProperties.swift */; };
+		4E04861F2D1DAFAD00A863A4 /* CommentairesMO+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0486142D1DAFAD00A863A4 /* CommentairesMO+CoreDataClass.swift */; };
+		4E0486202D1DAFAD00A863A4 /* HoraireMo+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0486172D1DAFAD00A863A4 /* HoraireMo+CoreDataProperties.swift */; };
+		4E0486212D1DAFAD00A863A4 /* MenusMO+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0486192D1DAFAD00A863A4 /* MenusMO+CoreDataProperties.swift */; };
+		4E0486222D1DAFAD00A863A4 /* RestaurantsMO+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E04861A2D1DAFAD00A863A4 /* RestaurantsMO+CoreDataClass.swift */; };
+		4E0486232D1DAFAD00A863A4 /* CommentairesMO+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0486152D1DAFAD00A863A4 /* CommentairesMO+CoreDataProperties.swift */; };
+		7A2C38252D006D2500DA9900 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A2C38242D006D2500DA9900 /* CoreData.framework */; };
+		7A2C38412D006D5F00DA9900 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A2C38402D006D5F00DA9900 /* CoreLocation.framework */; };
+		7A2C38432D006D7000DA9900 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A2C38422D006D7000DA9900 /* MapKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4E0486142D1DAFAD00A863A4 /* CommentairesMO+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CommentairesMO+CoreDataClass.swift"; sourceTree = "<group>"; };
+		4E0486152D1DAFAD00A863A4 /* CommentairesMO+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CommentairesMO+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		4E0486162D1DAFAD00A863A4 /* HoraireMo+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HoraireMo+CoreDataClass.swift"; sourceTree = "<group>"; };
+		4E0486172D1DAFAD00A863A4 /* HoraireMo+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HoraireMo+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		4E0486182D1DAFAD00A863A4 /* MenusMO+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MenusMO+CoreDataClass.swift"; sourceTree = "<group>"; };
+		4E0486192D1DAFAD00A863A4 /* MenusMO+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MenusMO+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		4E04861A2D1DAFAD00A863A4 /* RestaurantsMO+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RestaurantsMO+CoreDataClass.swift"; sourceTree = "<group>"; };
+		4E04861B2D1DAFAD00A863A4 /* RestaurantsMO+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RestaurantsMO+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		7A2C38082D006CE500DA9900 /* GastroMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GastroMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A2C38242D006D2500DA9900 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		7A2C38402D006D5F00DA9900 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		7A2C38422D006D7000DA9900 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		7A2C381D2D006CE700DA9900 /* Exceptions for "GastroMap" folder in "GastroMap" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 7A2C38072D006CE500DA9900 /* GastroMap */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		7A2C380A2D006CE500DA9900 /* GastroMap */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				7A2C381D2D006CE700DA9900 /* Exceptions for "GastroMap" folder in "GastroMap" target */,
+			);
+			path = GastroMap;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7A2C38052D006CE500DA9900 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A2C38412D006D5F00DA9900 /* CoreLocation.framework in Frameworks */,
+				7A2C38432D006D7000DA9900 /* MapKit.framework in Frameworks */,
+				7A2C38252D006D2500DA9900 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7A2C37FF2D006CE500DA9900 = {
+			isa = PBXGroup;
+			children = (
+				4E0486142D1DAFAD00A863A4 /* CommentairesMO+CoreDataClass.swift */,
+				4E0486152D1DAFAD00A863A4 /* CommentairesMO+CoreDataProperties.swift */,
+				4E0486162D1DAFAD00A863A4 /* HoraireMo+CoreDataClass.swift */,
+				4E0486172D1DAFAD00A863A4 /* HoraireMo+CoreDataProperties.swift */,
+				4E0486182D1DAFAD00A863A4 /* MenusMO+CoreDataClass.swift */,
+				4E0486192D1DAFAD00A863A4 /* MenusMO+CoreDataProperties.swift */,
+				4E04861A2D1DAFAD00A863A4 /* RestaurantsMO+CoreDataClass.swift */,
+				4E04861B2D1DAFAD00A863A4 /* RestaurantsMO+CoreDataProperties.swift */,
+				7A2C380A2D006CE500DA9900 /* GastroMap */,
+				7A2C38232D006D2500DA9900 /* Frameworks */,
+				7A2C38092D006CE500DA9900 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7A2C38092D006CE500DA9900 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7A2C38082D006CE500DA9900 /* GastroMap.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7A2C38232D006D2500DA9900 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7A2C38422D006D7000DA9900 /* MapKit.framework */,
+				7A2C38402D006D5F00DA9900 /* CoreLocation.framework */,
+				7A2C38242D006D2500DA9900 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7A2C38072D006CE500DA9900 /* GastroMap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A2C381E2D006CE700DA9900 /* Build configuration list for PBXNativeTarget "GastroMap" */;
+			buildPhases = (
+				7A2C38042D006CE500DA9900 /* Sources */,
+				7A2C38052D006CE500DA9900 /* Frameworks */,
+				7A2C38062D006CE500DA9900 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				7A2C380A2D006CE500DA9900 /* GastroMap */,
+			);
+			name = GastroMap;
+			packageProductDependencies = (
+			);
+			productName = GastroMap;
+			productReference = 7A2C38082D006CE500DA9900 /* GastroMap.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7A2C38002D006CE500DA9900 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					7A2C38072D006CE500DA9900 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+				};
+			};
+			buildConfigurationList = 7A2C38032D006CE500DA9900 /* Build configuration list for PBXProject "GastroMap" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7A2C37FF2D006CE500DA9900;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 7A2C38092D006CE500DA9900 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7A2C38072D006CE500DA9900 /* GastroMap */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7A2C38062D006CE500DA9900 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7A2C38042D006CE500DA9900 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E04861C2D1DAFAD00A863A4 /* MenusMO+CoreDataClass.swift in Sources */,
+				4E04861D2D1DAFAD00A863A4 /* HoraireMo+CoreDataClass.swift in Sources */,
+				4E04861E2D1DAFAD00A863A4 /* RestaurantsMO+CoreDataProperties.swift in Sources */,
+				4E04861F2D1DAFAD00A863A4 /* CommentairesMO+CoreDataClass.swift in Sources */,
+				4E0486202D1DAFAD00A863A4 /* HoraireMo+CoreDataProperties.swift in Sources */,
+				4E0486212D1DAFAD00A863A4 /* MenusMO+CoreDataProperties.swift in Sources */,
+				4E0486222D1DAFAD00A863A4 /* RestaurantsMO+CoreDataClass.swift in Sources */,
+				4E0486232D1DAFAD00A863A4 /* CommentairesMO+CoreDataProperties.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7A2C381F2D006CE700DA9900 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B28M5ZNFWY;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GastroMap/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "\"Voulez-vous autoriser l'accès ?\"";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = UPPAL3NEC.GastroMap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7A2C38202D006CE700DA9900 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B28M5ZNFWY;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GastroMap/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "\"Voulez-vous autoriser l'accès ?\"";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = UPPAL3NEC.GastroMap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7A2C38212D006CE700DA9900 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7A2C38222D006CE700DA9900 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7A2C38032D006CE500DA9900 /* Build configuration list for PBXProject "GastroMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A2C38212D006CE700DA9900 /* Debug */,
+				7A2C38222D006CE700DA9900 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A2C381E2D006CE700DA9900 /* Build configuration list for PBXNativeTarget "GastroMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A2C381F2D006CE700DA9900 /* Debug */,
+				7A2C38202D006CE700DA9900 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7A2C38002D006CE500DA9900 /* Project object */;
+}
